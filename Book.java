@@ -78,5 +78,6 @@ class Book
         System.out.println("The author is " + author);
         System.out.println("The Title is " + title);
         System.out.println("The number of pages are " + pages);
+        System.out.println("The reference number is " + refNumber);
     }
 }

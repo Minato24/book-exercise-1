@@ -11,6 +11,7 @@ class Book
      // The fields.
     private String author;
     private String title;
+    private int pages;
 
     /**
      * Set the author and title fields when this object
@@ -24,14 +25,30 @@ class Book
 
     // Add the methods here ...
     
+    /**
+     * Accessor to get author
+     */
     public String getAuthor()
     {
         return author;
     }
     
+    
+    /**
+     * Accessor to get title
+     */
     public String getTitle()
     {
         return title;
+    }
+    
+   
+    /**
+     * Accessor to get pages
+     */
+    public int getPages()
+    {
+        return pages;
     }
     
     public void printAuthor()

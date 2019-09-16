@@ -60,4 +60,11 @@ class Book
     {
         System.out.println(title);
     }
+    
+    public void printDetails()
+    {
+        System.out.println("The author is " + author);
+        System.out.println("The Title is " + title);
+        System.out.println("The number of pages are " + pages);
+    }
 }
